@@ -64,7 +64,7 @@ public class Extent {
         return (width == 0) || (height == 0);
     }
 
-    private static final MessageFormat extentFormatter = new MessageFormat("[{0,number,#.####},{1,number,#.####}]");
+    private static final MessageFormat extentFormatter = new MessageFormat("{0,number,#.####}px {1,number,#.####}px");
     @Override
     public String toString() {
         return extentFormatter.format(new Object[] {width, height});

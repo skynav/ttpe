@@ -56,6 +56,10 @@ import com.skynav.ttx.transformer.TransformerContext;
 import com.skynav.xml.helpers.Documents;
 import com.skynav.xml.helpers.XML;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class Manifest {
 
     private static final String NAME                            = "manifest.xml";

@@ -39,6 +39,10 @@ import com.skynav.ttx.transformer.TransformerOptions;
 
 import com.skynav.ttpe.area.Area;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public abstract class LayoutProcessor implements TransformerOptions, Layout {
 
     protected TransformerContext context;

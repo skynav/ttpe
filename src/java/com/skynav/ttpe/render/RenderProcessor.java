@@ -39,6 +39,10 @@ import com.skynav.ttv.app.OptionSpecification;
 import com.skynav.ttx.transformer.TransformerContext;
 import com.skynav.ttx.transformer.TransformerOptions;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public abstract class RenderProcessor implements TransformerOptions, Render {
 
     protected TransformerContext context;

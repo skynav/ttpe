@@ -30,6 +30,10 @@ import java.util.Set;
 
 import org.w3c.dom.Element;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public abstract class NonLeafAreaNode extends AreaNode {
 
     public enum Expansion {

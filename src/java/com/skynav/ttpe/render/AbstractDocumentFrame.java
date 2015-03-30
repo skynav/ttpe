@@ -34,6 +34,10 @@ import org.w3c.dom.Document;
 
 import com.skynav.ttpe.geometry.Extent;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public abstract class AbstractDocumentFrame extends AbstractFrame implements DocumentFrame {
 
     private Document document;
