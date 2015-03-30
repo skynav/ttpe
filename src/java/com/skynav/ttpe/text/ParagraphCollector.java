@@ -32,6 +32,10 @@ import org.w3c.dom.Element;
 import com.skynav.ttpe.style.AnnotationStyleCollector;
 import com.skynav.ttpe.style.StyleCollector;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class ParagraphCollector {
 
     private StyleCollector styleCollector;                      // style collector

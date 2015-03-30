@@ -38,6 +38,10 @@ import com.skynav.ttpe.geometry.Rectangle;
 import com.skynav.ttpe.render.AbstractDocumentFrame;
 import com.skynav.xml.helpers.XML;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class SVGDocumentFrame extends AbstractDocumentFrame {
 
     private static final String NAMESPACE                       = "http://www.w3.org/2000/svg";

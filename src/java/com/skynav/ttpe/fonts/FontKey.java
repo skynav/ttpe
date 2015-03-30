@@ -33,6 +33,10 @@ import java.util.Set;
 import com.skynav.ttpe.geometry.Axis;
 import com.skynav.ttpe.geometry.Extent;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class FontKey {
 
     public static final List<String>            DEFAULT_FAMILIES   = new java.util.ArrayList<String>();

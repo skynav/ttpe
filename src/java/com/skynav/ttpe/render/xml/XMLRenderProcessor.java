@@ -64,6 +64,10 @@ import com.skynav.ttv.util.Reporter;
 import com.skynav.ttx.transformer.TransformerContext;
 import com.skynav.xml.helpers.Documents;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class XMLRenderProcessor extends RenderProcessor {
 
     public static final String NAME                             = "xml";

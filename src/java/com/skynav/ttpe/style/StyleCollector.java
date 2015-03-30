@@ -58,6 +58,10 @@ import static com.skynav.ttpe.geometry.Dimension.*;
 import static com.skynav.ttpe.style.Constants.*;
 import static com.skynav.ttpe.text.Constants.*;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class StyleCollector {
 
     protected TransformerContext context;

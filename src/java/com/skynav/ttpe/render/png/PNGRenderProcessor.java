@@ -55,6 +55,10 @@ import com.skynav.ttv.util.Reporter;
 import com.skynav.ttv.verifier.util.Colors;
 import com.skynav.ttx.transformer.TransformerContext;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class PNGRenderProcessor extends SVGRenderProcessor {
 
     public static final String NAME                             = "png";

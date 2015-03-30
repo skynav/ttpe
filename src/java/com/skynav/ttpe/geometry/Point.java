@@ -51,7 +51,7 @@ public class Point {
         return y;
     }
 
-    private static final MessageFormat originFormatter = new MessageFormat("[{0,number,#.####},{1,number,#.####}]");
+    private static final MessageFormat originFormatter = new MessageFormat("{0,number,#.####}px {1,number,#.####}px");
 
     @Override
     public String toString() {

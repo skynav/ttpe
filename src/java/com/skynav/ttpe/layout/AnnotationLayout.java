@@ -34,6 +34,10 @@ import com.skynav.ttpe.style.Color;
 import com.skynav.ttpe.style.InlineAlignment;
 import com.skynav.ttpe.text.Phrase;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class AnnotationLayout extends LineLayout {
 
     public AnnotationLayout(Phrase content, LayoutState state) {

@@ -43,6 +43,10 @@ import com.skynav.ttpe.util.AttributedStrings;
 
 import static com.skynav.ttpe.style.Constants.*;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class Phrase {
 
     protected Element element;                                  // element that generated content

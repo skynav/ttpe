@@ -39,6 +39,10 @@ import com.skynav.ttpe.geometry.Rectangle;
 import com.skynav.ttpe.render.AbstractDocumentFrame;
 import com.skynav.xml.helpers.XML;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class XMLDocumentFrame extends AbstractDocumentFrame {
 
     private static final String NAMESPACE                       = Namespace.NAMESPACE + "#areas";

@@ -32,6 +32,10 @@ import com.skynav.ttpe.text.Paragraph;
 
 import static com.skynav.ttpe.geometry.Dimension.*;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class ParagraphLayout {
 
     private Paragraph paragraph;

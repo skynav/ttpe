@@ -44,6 +44,10 @@ import com.skynav.ttpe.geometry.TransformMatrix;
 import com.skynav.ttpe.util.Characters;
 import com.skynav.ttv.util.Reporter;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class Font {
 
     private FontKey key;

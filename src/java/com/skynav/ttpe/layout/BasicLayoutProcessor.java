@@ -57,6 +57,10 @@ import com.skynav.xml.helpers.Documents;
 
 import static com.skynav.ttpe.text.Constants.*;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class BasicLayoutProcessor extends LayoutProcessor {
 
     public static final String NAME                             = "basic";

@@ -36,6 +36,10 @@ import org.w3c.dom.Element;
 import com.skynav.ttpe.app.Namespace;
 import com.skynav.xml.helpers.Documents;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class FontSpecification {
 
     // specification state
